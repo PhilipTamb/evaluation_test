@@ -36,6 +36,11 @@ Download and execute the code.
 ```
 git clone https://github.com/PhilipTamb/evaluation_test.git
 cd evaluation_test
-clang++ --std=c++11 evaluation_test.cpp -o evaluation_test
+clang++ --std=c++20 evaluation_test.cpp -o evaluation_test
+or
+g++ --std=c++20 evaluation_test.cpp -o evaluation_test
+
 ./evaluation_test
+
+
 ```
